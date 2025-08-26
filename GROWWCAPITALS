@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrowwCapitals - Your Partner in Stock Market Success</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>GrowwCapitals</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>Your Partner in Stock Market Success</h2>
+                <p>Expert guidance and strategic insights to help you grow your investments. We offer services across all market segments.</p>
+                <a href="#contact" class="btn">Get Started Today</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h3>About Us</h3>
+                <p>Hello, I'm **Arvind Mehta**, the founder of GrowwCapitals. With a vision to empower individuals in the stock market, we have built a community of over **2 lakh satisfied customers** who trust our expertise and guidance. Our mission is to provide accurate and timely trading signals and market analysis to help you make informed decisions.</p>
+            </div>
+        </section>
+
+        <section id="accuracy" class="section bg-light">
+            <div class="container">
+                <h3>Our Performance</h3>
+                <div class="accuracy-box">
+                    <p class="accuracy-percent">90-95%</p>
+                    <p>Accuracy of Our Trades</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="container">
+                <h3>Our Services</h3>
+                <p>We provide expert guidance in all segments of the stock market, including:</p>
+                <ul>
+                    <li>Equity and Cash Market</li>
+                    <li>Futures & Options (F&O)</li>
+                    <li>Commodity Trading</li>
+                    <li>Currency Trading</li>
+                    <li>Long-term Investment Planning</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section bg-light">
+            <div class="container">
+                <h3>What Our Clients Say</h3>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"GrowwCapitals ki team kaafi professional hai. Unki recommendations se mujhe kaafi fayda hua." - Rahul K.</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★☆</div>
+                        <p>"Arvind sir ki guidance ne mere trading journey ko asaan bana diya. Thank you!" - Priya S.</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"High accuracy aur behtareen customer support. Mai GrowwCapitals se bahut khush hu." - Anil B.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h3>Contact Us</h3>
+                <p>We're here to help you. Fill out the form below to get in touch with our team.</p>
+                <form id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GrowwCapitals. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
